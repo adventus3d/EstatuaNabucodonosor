@@ -7,46 +7,30 @@
   </head>
   <body style="margin: 0; overflow: hidden;">
     <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
+      
+      <a-marker preset="hiro" smooth="true" smoothCount="10" smoothTolerance="0.01" smoothThreshold="5">
 
-      <a-marker preset="hiro">
-
-        <a-text value="BABILONIA\n605 a.C - 539 a.C\nCabeca de Ouro" 
-                position="1.5 4.5 0" 
-                scale="0.8 0.8 0.8" 
-                color="#FFD700" 
-                align="left">
-        </a-text>
-
-        <a-text value="MEDO-PERSIA\n539 a.C - 331 a.C\nPeito de Prata" 
-                position="1.5 3.5 0" 
-                scale="0.8 0.8 0.8" 
-                color="#C0C0C0" 
-                align="left">
-        </a-text>
-
-        <a-text value="GRECIA\n331 a.C - 168 a.C\nQuadris de Bronze" 
-                position="1.5 2.5 0" 
-                scale="0.8 0.8 0.8" 
-                color="#CD7F32" 
-                align="left">
-        </a-text>
-
-        <a-text value="ROMA\n168 a.C - 476 d.C\nPernas de Ferro" 
-                position="1.5 1.5 0" 
-                scale="0.8 0.8 0.8" 
-                color="#A19D94" 
-                align="left">
-        </a-text>
-
-        <a-text value="ROMA DIVIDIDA\n476 d.C - Tempo do Fim\nPes de Barro e Ferro" 
-                position="1.5 0.5 0" 
-                scale="0.8 0.8 0.8" 
-                color="#8B4513" 
-                align="left">
-        </a-text>
+        <a-entity position="0 0 0" scale="0.4 0.4 0.4">
+          
+          <a-text value="BABILONIA\n605 a.C - 539 a.C\nCabeca de Ouro" 
+                  position="1.5 4 0" color="#FFD700" align="left"></a-text>
+                  
+          <a-text value="MEDO-PERSIA\n539 a.C - 331 a.C\nPeito de Prata" 
+                  position="1.5 3 0" color="#C0C0C0" align="left"></a-text>
+                  
+          <a-text value="GRECIA\n331 a.C - 168 a.C\nQuadris de Bronze" 
+                  position="1.5 2 0" color="#CD7F32" align="left"></a-text>
+                  
+          <a-text value="ROMA\n168 a.C - 476 d.C\nPernas de Ferro" 
+                  position="1.5 1 0" color="#A19D94" align="left"></a-text>
+                  
+          <a-text value="ROMA DIVIDIDA\n476 d.C - Fim\nPes de Barro e Ferro" 
+                  position="1.5 0 0" color="#8B4513" align="left"></a-text>
+                  
+        </a-entity>
 
       </a-marker>
-
+      
       <a-entity camera></a-entity>
     </a-scene>
   </body>
